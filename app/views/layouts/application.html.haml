@@ -9,9 +9,7 @@
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     .container
-      /devise оповещения
-      %p.notice= notice 
-      %p.alert= alert
+      = render 'layouts/messages'
       
       - if current_user
         = current_user.email
