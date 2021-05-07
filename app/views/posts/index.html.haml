@@ -1,0 +1,7 @@
+%h1 Все посты
+
+- @posts.each do |post|
+  //показывает пост внутри списка
+  = render 'posts/post', post: post 
+
+= link_to 'New Post', new_post_path, class: 'btn btn-success'
