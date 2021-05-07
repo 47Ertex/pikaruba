@@ -1,3 +1,9 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "trix/dist/trix";
+@import "./actiontext.scss";
+//поле с картрикой внутри
+trix-editor.form-control {
+  height: auto;
+}
