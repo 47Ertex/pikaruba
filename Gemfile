@@ -32,3 +32,4 @@ gem "haml-rails", "~> 2.0"
 gem 'bootstrap', '~> 5.0.0'
 gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.15.1'
+gem 'simple_form'
