@@ -1,0 +1,19 @@
+//@import "bootstrap";
+//@import "font-awesome-sprockets";
+//@import "font-awesome";
+//@import "trix/dist/trix";
+//@import "./actiontext.scss";
+//поле с картрикой внутри
+trix-editor.form-control {
+  height: auto;
+}
+
+.card-header{ background: #508991;}
+
+.btn_link:link, .btn_link:visited, .btn_link:focus{color: white;}
+.white_link:link, .white_link:visited, .white_link:focus{color: white; background: none;}
+.black_link:link, .black_link:visited, .black_link:focus{color: black; background: none;}
+
+//.card { color: #3f3147;}
+body { background: #5a6a6e}
+//.card, .jumbotron, .list-group-item { color: #3f3147;}
